@@ -1,0 +1,38 @@
+{
+  "admin": [
+    {
+      "FirstName": "ashok",
+      "LastName": "reddy",
+      "email": "ashokreddythotti@gmail.com",
+      "password": "123456",
+      "id": 1
+    },
+    {
+      "FirstName": "ashok",
+      "LastName": "reddy",
+      "email": "reddy@gmail.com",
+      "password": "reddy123",
+      "id": 2
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "firstName": "ashok",
+      "lastName": "reddy",
+      "email": "ashokreddy@gmail.com"
+    },
+    {
+      "id": 2,
+      "firstName": "hari",
+      "lastName": "krishna",
+      "email": "har@gmail.com"
+    },
+    {
+      "id": 3,
+      "firstName": "bob",
+      "lastName": "lucas",
+      "email": "lucas@gmail.com"
+    }
+  ]
+}
