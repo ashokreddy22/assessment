@@ -1,0 +1,42 @@
+<div class="container">
+    <!--<button class="btn btn-primary" (click)="add()">Add New User</button>-->
+    <h2>Total List</h2>
+     <div class="text-right"><button type="button" (click)='IssuedList()' class="btn btn-primary " >Get Aadhar Issued List</button></div>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Aadhar ID</th>
+          <th>Name</th>
+          <th>Gender</th>
+          <th>moblie</th>
+          <th>Address</th>
+          <th>DateOfBirth</th>
+          <th>IsuueDate</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let user of users">
+          <td>{{user.id}}</td>
+          <td>{{user.name}}</td>
+          <td>{{user.gender}}</td>
+          <td>{{user.mobile}}</td>
+          <td>{{user.address}}</td>
+          <td>{{user.dob}}</td>
+          <td>{{user.dor}}</td>
+          
+          <!--<button type="button" class="btn btn-link" (click)="editTodo(todo)">Edit</button>
+            -->  
+           <!-- <button class="btn btn-primary" (click)="show(user.id)">Details</button>-->
+            
+            <td><button type="button" (click)='BookUpdate(user.id)' class="btn btn-primary">Approve</button></td>
+            <td><button type="button" (click)='BookDelete(user.id)' class="btn btn-primary">Delete</button></td>
+        </tr>
+      </tbody>
+    </table>
+    <!--<button type="button" class="btn btn-success" (click)="createTodo()">Create</button>-->
+   
+  </div>
+  
+  
+  
